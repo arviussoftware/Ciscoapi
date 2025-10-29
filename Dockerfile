@@ -14,7 +14,7 @@ RUN npm ci --omit=dev
 COPY . .
 
 # 6. Expose the port your app runs on (commonly 3000)
-EXPOSE 3000
+EXPOSE 8080
 
 # 7. Define the command to run your app
 CMD ["node", "index.js"]
