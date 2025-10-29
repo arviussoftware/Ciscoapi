@@ -5,7 +5,7 @@ const { poolPromise } = require('./sqlcon');
 const server = http.createServer(app);
 const sql = require('mssql');
 const bodyParser = require('body-parser');
-const PORT = 3000;
+const PORT = 8080;
 
 app.use(bodyParser.json());
 
